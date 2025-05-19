@@ -27,7 +27,7 @@ a{
     align-items: center;
     justify-content: space-around;
     padding: 10%;
-    gap: 30%;
+    gap: 20%;
 }
 .landertext{
     display: flex;
@@ -47,7 +47,7 @@ a{
     justify-content: center;
     color: #F9FAF8;
     background-color: rgb(161, 161, 161);
-    height: 20em;
+    height: 10em;
     width: 50%;
     font-weight: bold;
 }
@@ -66,7 +66,6 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    flex-wrap: wrap;
 }
 .two h2{
     font-size: 36px;
@@ -76,7 +75,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 5%;
 }
 .box{
     height: 10em;
