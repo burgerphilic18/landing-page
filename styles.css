@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    font-size: 24px;
+    gap: 25%;
+    padding: 2%;
+    color: #F9FAF8;
+}
+.navbarlinks{
+    display: flex;
+    font-size: 16px;
+    gap: 10%;
+}
+.lander{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10cap;
+    padding-left: 20cap;
+    gap: 30%;
+}
+.landertext{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-weight: 900px;
+    font-size: 48px;
+}
+.landertext h4{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+}
+.landerimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: rgb(161, 161, 161);
+    height: 20em;
+    width: 50%;
+    font-weight: bold;
+}
+.lander button{
+    background-color:#3882F6;
+    border-color: #3882F6;
+    height: 3em;
+    width: 10em;
+    font-size: large;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+.two h2{
+    font-size: 36px;
+}
+.two .images{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+}
+.box{
+    height: 10em;
+    width: 10em;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+.two .images .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two .images .container p{
+    font-size: 24px;
+    text-align: center;
+}
+.three{
+    background-color: #E5E7EB;
+    text-align: center;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 8rem;
+    font-weight: 300;
+}
+.three h4{
+    text-align: end;
+    padding-right: 2rem;
+}
+.bluebox{
+    display: flex;
+    background-color: #3882F6;
+    height: max-content;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10%;
+    border-radius: 2em;
+    padding: 2em;
+    gap: 2em;
+}
+.bluebox .text{
+    color:#F9FAF8;
+    font-size: 36px;
+}
+.bluebox p{
+    font-size: 18px;
+}
+.bluebox button{
+    font-size: 24px;
+    height: 3em;
+    width: 10em;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0.1em solid #F9FAF8;
+}
+.footer{
+    background-color: #1f2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 1em;
+}
